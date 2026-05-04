@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <!-- Google Tag Manager -->
+    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+    'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+    })(window,document,'script','dataLayer','GTM-PDVCH23J');</script>
+    <!-- End Google Tag Manager -->
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Saltadilla Online | Chicas Superpoderosas & Mojo Jojo</title>
+    
+    <style>
+        :root {
+            --bombom: #ff69b4;
+            --burbuja: #00bfff;
+            --bellota: #32cd32;
+            --mojo: #6a0dad;
+            --oscuro: #222;
+            --blanco: #fff;
+        }
+        body {
+            font-family: 'Comic Sans MS', 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f9f9f9;
+            color: #333;
+        }
+        header {
+            background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),
+                        url('https://images.unsplash.com/photo-1534796636912-3b95b3ab5986?auto=format&fit=crop&w=1200&q=80');
+            background-size: cover;
+            background-position: center;
+            color: white;
+            text-align: center;
+            padding: 4rem 1rem;
+            text-shadow: 3px 3px 6px rgba(0,0,0,0.8);
+        }
+        nav {
+            background: var(--oscuro);
+            padding: 1rem;
+            text-align: center;
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+        }
+        nav a {
+            color: white;
+            margin: 0 15px;
+            text-decoration: none;
+            font-weight: bold;
+            text-transform: uppercase;
+        }
+        nav a:hover {
+            color: var(--bombom);
+        }
+        .container {
+            max-width: 1000px;
+            margin: 20px auto;
+            padding: 20px;
+        }
+        .hero-img {
+            width: 100%;
+            height: 300px;
+            object-fit: cover;
+            border-radius: 15px;
+            margin-bottom: 20px;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+        }
+        .grid-personajes {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 25px;
+            margin-top: 30px;
+        }
+        .card {
+            background: white;
+            border-radius: 15px;
+            overflow: hidden;
+            box-shadow: 0 6px 12px rgba(0,0,0,0.1);
+            transition: transform 0.3s;
+            text-align: center;
+        }
+        .card:hover {
+            transform: translateY(-10px);
+        }
+        .card img {
+            width: 100%;
+            height: 250px;
+            object-fit: cover;
+        }
+        .card-info {
+            padding: 20px;
+        }
+        .card h3 {
+            margin-top: 0;
+            font-size: 1.5rem;
+        }
+        /* Colores temáticos */
+        .card.bombom-border { border-bottom: 8px solid var(--bombom); }
+        .card.burbuja-border { border-bottom: 8px solid var(--burbuja); }
+        .card.bellota-border { border-bottom: 8px solid var(--bellota); }
+        .mojo-section {
+            display: flex;
+            flex-wrap: wrap;
+            align-items: center;
+            background: #2a0845;
+            color: white;
+            padding: 30px;
+            border-radius: 15px;
+            margin-top: 50px;
+            gap: 20px;
+        }
+        .mojo-section img {
+            flex: 1;
+            min-width: 250px;
+            max-width: 400px;
+            border-radius: 10px;
+            border: 4px solid var(--mojo);
+        }
+        .mojo-text {
+            flex: 2;
+            min-width: 250px;
+        }
+        footer {
+            text-align: center;
+            padding: 30px;
+            background: var(--oscuro);
+            color: white;
+            margin-top: 50px;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Google Tag Manager (noscript) -->
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-PDVCH23J"
+    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
+
+<header>
+    <h1>¡SALVANDO AL MUNDO ANTES DE DORMIR!</h1>
+    <p>El portal informativo de las heroínas más poderosas</p>
+</header>
+<nav>
+    <a href="#historia">Origen</a>
+    <a href="#heroínas">Heroínas</a>
+    <a href="#villano">Archienemigo</a>
+</nav>
+<div class="container">
+   
+    <section id="historia">
+        <h2>El Nacimiento de la Justicia</h2>
+        <img src="https://images.unsplash.com/photo-1550745165-9bc0b252726f?auto=format&fit=crop&w=1000&q=80" alt="Laboratorio" class="hero-img">
+        <p>En un laboratorio de Saltadilla, el <strong>Profesor Utonio</strong> mezcló azúcar, flores y muchos colores para crear a las niñas perfectas. Pero accidentalmente añadió el <strong>Ingrediente X</strong>, otorgándoles superpoderes increíbles.</p>
+    </section>
+    <section id="heroínas">
+        <h2 style="text-align: center;">Las Chicas Superpoderosas</h2>
+        <div class="grid-personajes">
+            <!-- Bombón -->
+            <div class="card bombom-border">
+                <img src="https://images.unsplash.com/photo-1542332213-9b5a5a3fad35?auto=format&fit=crop&w=500&q=80" alt="Bombón">
+                <div class="card-info">
+                    <h3 style="color: var(--bombom);">Bombón</h3>
+                    <p>La líder valiente y organizada. Con su inteligencia y su aliento de hielo, siempre tiene un plan para ganar.</p>
+                </div>
+            </div>
+            <!-- Burbuja -->
+            <div class="card burbuja-border">
+                <img src="https://images.unsplash.com/photo-1513151233558-d860c5398176?auto=format&fit=crop&w=500&q=80" alt="Burbuja">
+                <div class="card-info">
+                    <h3 style="color: var(--burbuja);">Burbuja</h3>
+                    <p>Dulce, sensible y capaz de hablar idiomas extraños y con animales. ¡No te dejes engañar por su ternura!</p>
+                </div>
+            </div>
+            <!-- Bellota -->
+            <div class="card bellota-border">
+                <img src="https://images.unsplash.com/photo-1502086223501-7ea6ecd79368?auto=format&fit=crop&w=500&q=80" alt="Bellota">
+                <div class="card-info">
+                    <h3 style="color: var(--bellota);">Bellota</h3>
+                    <p>La guerrera más fuerte del grupo. No le teme a nada y siempre es la primera en entrar en acción.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="villano">
+        <div class="mojo-section">
+            <img src="https://images.unsplash.com/photo-1531067339637-ef9369f09df9?auto=format&fit=crop&w=500&q=80" alt="Mojo Jojo">
+            <div class="mojo-text">
+                <h2 style="color: #a29bfe;">El Malvado Mojo Jojo</h2>
+                <p>Mojo Jojo, el primate con el cerebro más grande de Saltadilla, vive en su observatorio en la cima del volcán. Su único objetivo es destruir a las Chicas Superpoderosas y gobernar la ciudad.</p>
+                <p><em>"¡Yo soy el más malvado, el más brillante, el más... MOJO JOJO!"</em></p>
+            </div>
+        </div>
+    </section>
+</div>
+<footer>
+    <p>&copy; 2026 Ciudad de Saltadilla. Todo el contenido es para fines educativos sobre superhéroes.</p>
+</footer>
+</body>
+</html>
